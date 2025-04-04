@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikalena Gennari - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <div>
+    <div class="top">
         <h1>Mikalena Gennari</h1>
         <h3>Library and Information Science '25</h3>
         <h4>Wayne State University</h4>
     </div>
-    <nav>
-        <ul>
+    <nav class="main-menu">
+      <input class="menu-button" type="checkbox" id="menu-button" />
+      <label class="menu-icon" for="menu-button"><span class="navicon" aria-label="Toggle for menu"></span></label>
+        <ul class="main-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="academic.html">Academic Work</a></li>
@@ -21,12 +24,12 @@
         </ul>
     </nav>
   </header>
-  <main>
+  <main class="about-main">
     <div>
     <h1>About Me</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dz6sTTfO9Rc?si=y7D1eMVSiEeo2ud1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="about-vid"><iframe width="560" height="315" src="https://www.youtube.com/embed/Dz6sTTfO9Rc?si=y7D1eMVSiEeo2ud1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
    </div>
-   <p>---------Paragraph describing self ---------</p>
+   <p>---------Paragraph describing self ---------   Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.</p>
    <h3>"quote reflective of self" - by Someone</h3>
 </main>
   <footer>
