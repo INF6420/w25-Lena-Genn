@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikalena Gennari - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <div>
+    <div class="top">
         <h1>Mikalena Gennari</h1>
         <h3>Library and Information Science '25</h3>
         <h4>Wayne State University</h4>
     </div>
-    <nav>
-        <ul>
+    <nav class="main-menu">
+      <input class="menu-button" type="checkbox" id="menu-button" />
+      <label class="menu-icon" for="menu-button"><span class="navicon" aria-label="Toggle for menu"></span></label>
+        <ul class="main-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="academic.html">Academic Work</a></li>
@@ -21,17 +24,17 @@
         </ul>
     </nav>
   </header>
-  <main>
-    <div><img src="Images\Globe.jpg" alt="image of globe and book on table in a library as placeholder for image of Self"></div>
-    <div>
+  <main class="contact-main">
+    <div class="contact-image"><img src="Images\Globe.jpg" alt="image of globe and book on table in a library as placeholder for image of Self"></div>
+    <div class="contact-text">
         <h1>Thank you for visiting!</h1>
         <h2>To reach me, leave a message here.</h2>
-        <h4>Mikalena Gennari</h4>
-        <h4>gv8391@wayne.edu</h4>
-        <p>Name*</p>
+        <div class="contact-info-mine"><h4>Mikalena Gennari</h4>
+        <h4>gv8391@wayne.edu</h4></div>
+        <div class="contact-info"><p>Name*</p>
         <p>Email*</p>
         <p>Subject</p>
-        <p>Message</p>
+        <p>Message</p></div>
     </div>
   </main>
   <footer>
