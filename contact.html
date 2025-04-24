@@ -31,10 +31,19 @@
         <h2>To reach me, leave a message here.</h2>
         <div class="contact-info-mine"><h4>Mikalena Gennari</h4>
         <h4>gv8391@wayne.edu</h4></div>
-        <div class="contact-info"><p>Name*</p>
-        <p>Email*</p>
-        <p>Subject</p>
-        <p>Message</p></div>
+        <div class="contact-info">
+          <form action="https://formspree.io/f/xanegvbv" method="post" class="validate">
+            <label for="Name">Name</label>
+            <input name="Name" id="Name" type="Name" class="form-input">
+            <label for="email">Email*</label>
+            <input name="Email" id="email" type="email" class="form-input" required>
+            
+            <label for="Message">Message*</label>
+            <textarea id="Message" name="Message" class="form-input" rows="4" required></textarea>
+ 
+            <button type="submit">Send</button>
+          </form>
+        </div>
     </div>
   </main>
   <footer>
@@ -45,5 +54,6 @@
         <p>gv8391@wayne.edu</p>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
